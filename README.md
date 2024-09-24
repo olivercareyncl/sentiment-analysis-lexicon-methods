@@ -21,6 +21,29 @@ We’ve provided a sample dataset `sample_texts.csv` located in the `data/` fold
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/sentiment-analysis-lexicon-methods.git
+git clone https://github.com/olivercareyncl/sentiment-analysis-lexicon-methods.git
 cd sentiment-analysis-lexicon-methods
 
+### 2. Install the required libraries:
+```bash
+pip install -r requirements.txt
+
+### 3. Run the analysis:
+```bash
+python src/lexicon_based_analysis.py
+
+## Example Notebook
+You can explore a step-by-step guide to sentiment analysis using **VADER** and **TextBlob** in the Jupyter notebook provided under `notebooks/`.
+
+## Requirements
+The required Python packages are listed in `requirements.txt`. Key dependencies include:
+
+- pandas
+- vaderSentiment
+- textblob
+- matplotlib
+- seaborn
+- jupyter
+
+## Contributing
+Feel free to submit pull requests or open issues for any enhancements or bug fixes.
