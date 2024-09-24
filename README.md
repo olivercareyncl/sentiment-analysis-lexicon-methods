@@ -9,7 +9,6 @@ This repository contains the code and resources for performing **Sentiment Analy
 4. [Example Notebook](#example-notebook)
 5. [Requirements](#requirements)
 6. [Contributing](#contributing)
-7. [License](#license)
 
 ## Overview
 Sentiment analysis is a natural language processing (NLP) technique used to determine whether data is positive, negative, or neutral. In this project, we explore lexicon-based sentiment analysis methods like **VADER** and **TextBlob**. These approaches are particularly useful for analyzing social media, product reviews, and other text datasets.
@@ -23,14 +22,17 @@ We’ve provided a sample dataset `sample_texts.csv` located in the `data/` fold
 ```bash
 git clone https://github.com/olivercareyncl/sentiment-analysis-lexicon-methods.git
 cd sentiment-analysis-lexicon-methods
+```
 
 ### 2. Install the required libraries:
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. Run the analysis:
 ```bash
 python src/lexicon_based_analysis.py
+```
 
 ## Example Notebook
 You can explore a step-by-step guide to sentiment analysis using **VADER** and **TextBlob** in the Jupyter notebook provided under `notebooks/`.
